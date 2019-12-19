@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weight In Cats</title>
+	
+<link rel="stylesheet" type="text/css" href="catWeight.css">
+	
+
+ <script type="text/javascript" src="catWeight.js"></script>
+
+
+
+</head>
+<body class="full-height">
+
+	<h1>FIND YOUR WEIGHT IN CATS!</h1>
+
+<p>
+  <label>Enter Your Weight In Pounds: </label>
+  <input id="inputPounds" type="number" placeholder="Pounds"
+  oninput="weightConverter(this.value)"
+  onchange="weightConverter(this.value)">
+</p>
+
+<p>Your Weight In Cats Is: <span id="outputCats"></span></p>
+
+</body>
+</html>
